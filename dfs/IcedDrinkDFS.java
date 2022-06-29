@@ -6,7 +6,14 @@ import java.io.InputStreamReader;
 
 /**
  *  음료수를 왜 얼려먹나 그냥 먹지
- *  
+ *  input
+ *  4 5
+ * 00110
+ * 00011
+ * 11111
+ * 00000
+ *
+ * EXPECTED : 3
  */
 public class IcedDrinkDFS {
     static boolean dfs(int x, int y, int[][] graph, int maxX, int maxY) {
